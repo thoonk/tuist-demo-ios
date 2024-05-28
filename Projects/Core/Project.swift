@@ -12,5 +12,6 @@ let project = Project.makeModule(
     name: "Core",
     product: .staticFramework,
     dependencies: [
+        .SPM.Swinject
     ]
 )
