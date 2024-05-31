@@ -17,7 +17,7 @@ let project = Project.makeModule(
     name: projectName,
     product: .app,
     dependencies: [
-        .project(target: "Core", path: .relativeToRoot("Projects/Core"))
+        .project(target: "DependencyInjection", path: .relativeToRoot("Projects/Core/DependencyInjection"))
     ],
     resources: ["Resources/**"],
     infoPlist: .file(path: "Support/Info.plist")

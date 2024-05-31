@@ -8,9 +8,11 @@
 import ProjectDescription
 import ProjectDescriptionHelpers
 
+let name = "DependencyInjection"
+
 let project = Project.makeModule(
-    name: "Core",
-    product: .staticFramework,
+    name: name,
+    product: .framework,
     dependencies: [
         .SPM.Swinject
     ]
